@@ -27,7 +27,7 @@ body {
     font-weight: 700;
     color: #f9faf8;
     align-items: center;
-    text-wrap: nowrap;
+    white-space: nowrap;
 }
 
 /* NAVBAR */
@@ -45,8 +45,8 @@ body {
 }
 
 li {
-    padding-right: 40px;
-    text-wrap: nowrap;
+    padding-left: 40px;
+    white-space: nowrap;
 }
 
 a {
@@ -59,7 +59,14 @@ a {
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding: 50px 15%;
 }
 
+.heroleft,
+.heroright {
+    width: 50%;
+}
+
+.img {
+    width: 400px;
+}
