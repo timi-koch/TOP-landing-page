@@ -56,17 +56,58 @@ a {
 
 
 /* -----HERO SECTION----- */
+/* GENERAL */
 .hero {
     background-color: #1f2937;
     display: flex;
-    padding: 50px 15%;
+    justify-content: center;
+    padding: 100px 15%;
+    
 }
 
 .heroleft,
 .heroright {
     width: 50%;
+    min-width: 350px;
+}
+
+/* HERO LEFT  */
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 50px 10px 0;
+
+}
+
+.heroheader {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.heromain {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* HERO RIGHT */
+.heroright {
+    display: flex;
+    align-items: center;
 }
 
 .img {
-    width: 400px;
+    width: 100%;
 }
+
+/* -----INFO SECTION----- */
+
